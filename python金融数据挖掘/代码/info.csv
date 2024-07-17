@@ -1,0 +1,21 @@
+Sex,Height,Weight,Type
+1,"	180",75,normal
+1,"	180",85,normal
+1,"	180","	90",overweight
+1,"	180","	100",overweight
+1,175,90,overweight
+1,"	175","	80",overweight
+1,"	175","	65",normal
+1,175,55,underweight 
+1,"	170","	60",normal
+1,"	170",70,normal
+1,"	170",80,overweight
+1,"	185","	90",overweight
+1,"	185","	75",normal
+1,175,60,underweight 
+1,180,65,underweight 
+1,160,75,overweight
+1,160,60,normal
+1,170,68,normal
+1,165,62,normal
+1,190,75,underweight 
