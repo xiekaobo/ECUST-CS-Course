@@ -1,0 +1,25 @@
+ls4.txt
+README.en.md
+obj
+ls2.txt
+ls3.txt
+截屏2024-06-03 20.13.23.png
+ls1.txt
+test
+grep.txt
+Makefile
+shell
+1
+ls.txt
+self.txt
+README.md
+命令补全.mov
+alias.txt
+3.txt
+截屏2024-06-03 18.53.56.png
+1_2.txt
+后台运行.png
+_1.txt
+his.txt
+src
+self-function!

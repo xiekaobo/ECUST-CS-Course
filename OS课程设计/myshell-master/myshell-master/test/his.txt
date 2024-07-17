@@ -1,0 +1,2 @@
+cd test
+cat 1.txt

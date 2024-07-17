@@ -1,0 +1,58 @@
+if(strcmp(argv[0],"history")==0)//查看历史命令
+    {   
+        history(argv,hist,&filled,&head);
+        return; 
+    }
+    if (strcmp(argv[0], "cd") == 0)//改变路径
+    {
+        int retChdir = chdir(argv[1]); //直接更改当前工作目录
+        if (retChdir==-1)
+            printf("No such file or directory. %d,%s\n",retChdir,argv[1]);
+        f = 1;
+        return;
+    }
+    if(strcmp(argv[0],"alias")==0)//重命名
+    {
+        alias(argv);
+        return;
+    }
+    if(strcmp(argv[0],"unalias")==0)
+    {
+        int i=1;
+        while(argv[i])
+        {
+            unalias(argv[i]);
+            i++;
+        }
+        return;
+    }
+    if(strcmp(argv[0],"ls")==0)//执行ls命令
+    {
+        ls(argv);
+        return;
+    }
+    if(strcmp(argv[0],"type")==0)//执行type命令
+    {
+        type(argv);
+        return;
+    }
+    if(strcmp(argv[0],"echo")==0)// 执行echo命令
+    {
+        echo(argv);
+        return;
+    }
+    if(strcmp(argv[0],"pwd")==0)//执行pwd命令
+    {
+        pwd();
+        return;
+    }
+    if(strcmp(argv[0],"cat")==0)//执行cat命令
+    {   
+        cat(argv);
+        return;
+    }
+    if(strcmp(argv[0],"grep")==0)//grep命令
+    {
+        grep_command(argv);
+        return;
+    }

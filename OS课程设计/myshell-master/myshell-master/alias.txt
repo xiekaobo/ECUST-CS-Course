@@ -1,0 +1,6 @@
+cdt cd^test
+cg "cat
+abcd "scjs
+abcde "abc"
+smith cat^1.txt!grep^2)smith.txt
+tst cat^1.txt

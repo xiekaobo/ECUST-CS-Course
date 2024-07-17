@@ -1,0 +1,22 @@
+total 19448
+-rwxr-xr-x   1 roysmith  staff    35422  6 12 15:28 1
+-rw-r--r--   1 roysmith  staff        0  6 12 15:28 1_2.txt
+-rw-r--r--   1 roysmith  staff      345  6 12 15:28 Makefile
+-rw-r--r--   1 roysmith  staff      822  6 12 15:28 README.en.md
+-rw-r--r--   1 roysmith  staff     1559  6 12 15:28 README.md
+-rw-r--r--   1 roysmith  staff        0  6 12 15:28 _1.txt
+-rw-r--r--   1 roysmith  staff       90  6 12 15:28 alias.txt
+-rw-r--r--   1 roysmith  staff        9  6 12 15:28 grep.txt
+-rw-r--r--   1 roysmith  staff     1337  6 12 15:33 his.txt
+-rw-r--r--@  1 roysmith  staff      196  6 12 15:31 ls.txt
+-rw-r--r--@  1 roysmith  staff     1204  6 12 15:32 ls1.txt
+-rw-r--r--@  1 roysmith  staff      212  6 12 15:33 ls2.txt
+-rw-r--r--   1 roysmith  staff        0  6 12 15:33 ls3.txt
+drwxr-xr-x@ 14 roysmith  staff      448  6 12 15:33 obj
+-rwxr-xr-x   1 roysmith  staff    72994  6 12 15:33 shell
+drwxr-xr-x@ 15 roysmith  staff      480  6 12 15:33 src
+drwxr-xr-x@ 17 roysmith  staff      544  6 12 15:28 test
+-rw-r--r--   1 roysmith  staff    87242  6 12 15:28 截屏2024-06-03 18.53.56.png
+-rw-r--r--   1 roysmith  staff   972811  6 12 15:28 截屏2024-06-03 20.13.23.png
+-rw-r--r--   1 roysmith  staff  7769654  6 12 15:28 命令补全.mov
+-rw-r--r--   1 roysmith  staff   972811  6 12 15:28 后台运行.png

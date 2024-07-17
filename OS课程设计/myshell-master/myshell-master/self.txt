@@ -1,0 +1,23 @@
+1
+1_2.txt
+Makefile
+README.en.md
+README.md
+_1.txt
+alias.txt
+grep.txt
+his.txt
+ls.txt
+ls1.txt
+ls2.txt
+ls3.txt
+ls4.txt
+obj
+self.txt
+shell
+src
+test
+截屏2024-06-03 18.53.56.png
+截屏2024-06-03 20.13.23.png
+命令补全.mov
+后台运行.png

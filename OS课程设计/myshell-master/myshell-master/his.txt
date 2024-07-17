@@ -1,0 +1,293 @@
+cd test
+cat 1.txt
+cat 1.txt|grep 2
+history 4
+exit
+history 5
+cd test
+cat 1.txt|grep 2|uniq|grep 4
+cat 1.txt|grep 2|uniq|grep4 &
+cat 1.txt|grep 2|uniq|grep 4 &
+ls
+alias  cdt="cd test"
+alias
+alias cg1="cat 1.txt|grep 2"
+alias
+alias abc="bcd"
+alias
+alias cg="cat 1.txt"
+alias
+ldt
+ldt 
+alias
+cdt
+cdt
+alias
+alias
+exit
+alias
+alias cdt="cd test"
+alias
+exit
+alias abcd="scjs hfkd"
+alias abcde="abc"
+alias
+exit
+alias l="ls"
+l
+ls
+l
+alias
+exit
+l
+l -l
+alias
+alias l=ls
+alias
+l
+alias smith=ls
+smith
+alias
+alias
+alias tst=cat^1.txt|grep^2|uniq|grep^4
+alias tst=cat^1.txt
+alias tsd=cat^1.txt|grep^2
+alias
+exit
+alias
+alias cdt=cd^test
+cdt
+alias
+cdt
+exit
+cdt
+exit
+cdt
+alias
+tst
+tst
+history 10
+alias pipec=cat^1.txt|grep^2
+alias
+alias smith=cat^1.txt!grep^2)smith.txt
+cdt
+smith
+history 20
+smith
+ping 192.168.1.1
+history 60
+pwd
+echo sclkalsc
+cdt
+echo 1.txt
+ls -l
+cat 1.txt|grep 2
+cat 1.txt
+grep j
+cd test
+cat 1.txt|grep 'j'
+cat 1.txt
+cat 1.txt|grep "j"
+cat 1.txt|grep "ej"
+cat 1.txt|grep 2
+exit
+cdt
+cat 1.txt|grep ej
+cat 1.txt|grep j
+exit
+alias
+unalias l
+alias
+unalias abc
+alias
+exit
+ls
+history
+history 10
+cd test
+ls
+cd myshell/test
+cd ECUST
+cd os
+ls
+ls -l&
+ls -l
+less
+less --help
+cd test
+ls
+cat 1.txt
+exit
+cdt
+cat 1.txt&
+./
+./sleep&
+
+exit
+cat 1.txt&
+cdt
+./sleep&
+ls
+cd ..
+cd myshell
+ls
+ls -l&
+exit
+ls >ls.txt
+ls -l >ls1.txt
+exit
+ls >ls2.txt
+ls -l >ls3.txt
+exit
+ls -l>ls4.txt
+exit
+ls >ls.txt
+exit
+ls >ls.txt
+exit
+ls >ls.txt
+ls
+ls>self.txt
+exit
+ls
+ls -l
+ls
+ls -l
+ls -l >3.txt
+exit
+ls
+exit
+ls >ls.txt
+exit
+ls
+cat grep.txt
+exit
+cdt
+cat 1.txt|grep 2|uniq|grep 4
+exit
+echo 123\n23
+echo $HOME
+echo $
+echo $java
+echo $JAVA
+echo java
+exit
+echo $USER
+echo $PWS
+echo $PWD
+exit
+echo $USER
+echo $RANDOM
+echo $PATH
+echo $SHELL
+exit
+echo 123
+echo $USER
+echo $PATH
+echo $HOME
+echo -n "123"
+
+ls
+echo his.txt
+echo $PWD
+echo $TERM
+echo $RANDOM
+echo $SHELL
+echo 12\n2
+exit
+echo 12\n2
+echo 12\'n
+exit
+ls
+cd src
+exit
+cd src
+exit
+cd src
+cd ..
+cls
+ls
+cd obj
+ls
+pwd
+exit
+cat .bash_history
+history
+history
+ls
+cd ..
+ls
+cd
+cd ..
+history
+ls
+ls
+ls
+history
+history
+history
+history
+history
+cd src
+find . -name '*.c' -o -name '*.h' | xargs wc -l
+find . -name *.c -o -name *.h | xargs wc -l
+cd ECUST
+cd /Users
+ls
+cd marston
+ls
+cd Downloads
+ls
+exit
+exit
+exit
+[A
+type mkdir
+type kkk
+type ls
+alias
+ls -l > ls1.txt
+exit
+cat ls1.txt
+cat ls.txt ls1.txt
+cat src
+cat ls.txt ls1.txt
+exit
+cat ls.txt ls1.txt
+cat ls.txt > ls1.txt
+cat ls1.txt
+cat > ls1.txt
+cat /etc/password
+cat /src/pwd.c
+exit
+cat src/pwd.c
+exit
+cat /etc/passwd
+exit
+grep "txt" ls.txt
+grep txt ls.txt
+grep -n txt ls1.txt
+grep txt ls.txt ls1.txt
+gre txt ls1.txt
+grep txt ls1.txt
+grep 1 ls.txt ls1.txt
+cat ls1.txt|grep 1
+cat ls1.txt ls.txt|grep1
+cat ls.txt ls1.txt
+exit
+cat ls.txt|grep 1
+exit
+cat ls.txt ls1.txt | grep 1
+exit
+cat ls.txt | grep 1
+ls | grep 1
+exit
+ls | grep  1
+cat ls.txt | ls
+echo $SHELL
+cd ECUST
+chsh -s /bin/zsh
+echo $SHELL
+exit
+cd ECUST
+chsh -s /bin/zsh
