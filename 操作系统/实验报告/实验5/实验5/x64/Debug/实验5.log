@@ -1,0 +1,12 @@
+﻿  OS5.cpp
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(44,67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(53,67): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(58,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(97,75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(119,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(197,32): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(220,47): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(238,81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(251,23): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\Ecust\OS\实验5\实验5\OS5.cpp(22,18): warning C4101: “k”: 未引用的局部变量
+  实验5.vcxproj -> C:\Users\Bo\Desktop\Ecust\OS\实验5\x64\Debug\实验5.exe
