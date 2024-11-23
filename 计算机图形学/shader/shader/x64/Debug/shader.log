@@ -1,0 +1,6 @@
+﻿  Main.cpp
+soil2-debug.lib(SOIL2.obj) : warning LNK4099: 未找到 PDB“”(使用“soil2-debug.lib(SOIL2.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+soil2-debug.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“”(使用“soil2-debug.lib(image_DXT.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+soil2-debug.lib(wfETC.obj) : warning LNK4099: 未找到 PDB“”(使用“soil2-debug.lib(wfETC.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+soil2-debug.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“”(使用“soil2-debug.lib(image_helper.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
+  shader.vcxproj -> C:\Users\Bo\Desktop\Ecust\计算机图形学\shader\x64\Debug\shader.exe

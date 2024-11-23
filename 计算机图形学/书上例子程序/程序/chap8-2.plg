@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: chap8-2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/chap8-2.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\教学工作\0.当前教学\二专-计算机图形学\新建文件夹\OpenGL程序\程序\chap8-2.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPEF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/chap8-2.pdb" /debug /machine:I386 /out:"Debug/chap8-2.exe" /pdbtype:sept 
+".\Debug\chap8-2.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPF0.tmp"
+<h3>Output Window</h3>
+Compiling...
+chap8-2.cpp
+g:\教学工作\0.当前教学\二专-计算机图形学\新建文件夹\opengl程序\程序\chap8-2.cpp(1) : fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+chap8-2.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

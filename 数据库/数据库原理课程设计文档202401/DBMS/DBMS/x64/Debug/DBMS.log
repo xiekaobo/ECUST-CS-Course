@@ -1,0 +1,7 @@
+﻿  System.cpp
+C:\Users\Bo\Desktop\数据库原理课程设计文档202401\DBMS\DBMS\System.cpp(155,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Bo\Desktop\数据库原理课程设计文档202401\DBMS\DBMS\System.cpp(238,20): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Bo\Desktop\数据库原理课程设计文档202401\DBMS\DBMS\System.cpp(398,15): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Bo\Desktop\数据库原理课程设计文档202401\DBMS\DBMS\System.cpp(490,11): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Bo\Desktop\数据库原理课程设计文档202401\DBMS\DBMS\System.cpp(618,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  DBMS.vcxproj -> C:\Users\Bo\Desktop\数据库原理课程设计文档202401\DBMS\x64\Debug\DBMS.exe
