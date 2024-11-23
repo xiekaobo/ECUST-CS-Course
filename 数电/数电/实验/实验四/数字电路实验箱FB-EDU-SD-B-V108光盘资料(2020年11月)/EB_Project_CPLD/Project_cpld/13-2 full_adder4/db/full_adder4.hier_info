@@ -1,0 +1,60 @@
+|full_adder4
+S0 <= full_adder:inst.S
+A0 => full_adder:inst.A
+B0 => full_adder:inst.B
+S1 <= full_adder:inst8.S
+A1 => full_adder:inst8.A
+B1 => full_adder:inst8.B
+S2 <= full_adder:inst12.S
+A2 => full_adder:inst12.A
+B2 => full_adder:inst12.B
+S3 <= full_adder:inst9.S
+A3 => full_adder:inst9.A
+B3 => full_adder:inst9.B
+COUT <= full_adder:inst9.Co
+
+
+|full_adder4|full_adder:inst
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Ci => inst1.IN1
+Ci => inst2.IN1
+Co <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder4|full_adder:inst8
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Ci => inst1.IN1
+Ci => inst2.IN1
+Co <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder4|full_adder:inst12
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Ci => inst1.IN1
+Ci => inst2.IN1
+Co <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder4|full_adder:inst9
+S <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst3.IN0
+B => inst.IN1
+B => inst3.IN1
+Ci => inst1.IN1
+Ci => inst2.IN1
+Co <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+
+

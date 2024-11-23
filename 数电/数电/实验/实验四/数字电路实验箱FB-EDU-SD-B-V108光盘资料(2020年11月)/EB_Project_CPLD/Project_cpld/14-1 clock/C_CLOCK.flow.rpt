@@ -1,0 +1,239 @@
+Flow report for C_CLOCK
+Tue Jun 26 11:53:55 2018
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------+
+; Flow Summary                                                           ;
++-------------------------+----------------------------------------------+
+; Flow Status             ; Successful - Tue Jun 26 11:53:55 2018        ;
+; Quartus II Version      ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
+; Revision Name           ; C_CLOCK                                      ;
+; Top-level Entity Name   ; C_CLOCK                                      ;
+; Family                  ; MAX II                                       ;
+; Device                  ; EPM240T100C5                                 ;
+; Timing Models           ; Final                                        ;
+; Met timing requirements ; No                                           ;
+; Total logic elements    ; 186 / 240 ( 78 % )                           ;
+; Total pins              ; 16 / 80 ( 20 % )                             ;
+; Total virtual pins      ; 0                                            ;
+; UFM blocks              ; 0 / 1 ( 0 % )                                ;
++-------------------------+----------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/26/2018 11:53:48 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; C_CLOCK             ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                ;
++--------------------------------------------------------------+------------------------------------------------+---------------+-------------+-----------------------------------+
+; Assignment Name                                              ; Value                                          ; Default Value ; Entity Name ; Section Id                        ;
++--------------------------------------------------------------+------------------------------------------------+---------------+-------------+-----------------------------------+
+; COMPILER_SIGNATURE_ID                                        ; 233912839964.152998522709004                   ; --            ; --          ; --                                ;
+; EDA_BOARD_BOUNDARY_SCAN_OPERATION                            ; PRE_CONFIG                                     ; --            ; --          ; eda_timing_analysis               ;
+; EDA_ENABLE_GLITCH_FILTERING                                  ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_ENABLE_GLITCH_FILTERING                                  ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_ENABLE_OCV_TIMING_ANALYSIS                               ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_FLATTEN_BUSES                                            ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_FORMAL_VERIFICATION_ALLOW_RETIMING                       ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST                              ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_GENERATE_GATE_LEVEL_SIMULATION_COMMAND_SCRIPT            ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_GENERATE_POWER_INPUT_FILE                                ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_GENERATE_RTL_SIMULATION_COMMAND_SCRIPT                   ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_GENERATE_TIMING_CLOSURE_DATA                             ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_IBIS_MODEL_SELECTOR                                      ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_IBIS_MUTUAL_COUPLING                                     ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_INCLUDE_VHDL_CONFIGURATION_DECLARATION                   ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_INPUT_DATA_FORMAT                                        ; None                                           ; --            ; --          ; eda_timing_analysis               ;
+; EDA_INPUT_GND_NAME                                           ; Gnd                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_INPUT_GND_NAME                                           ; Gnd                                            ; --            ; --          ; eda_design_synthesis              ;
+; EDA_INPUT_VCC_NAME                                           ; Vcc                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_INPUT_VCC_NAME                                           ; Vcc                                            ; --            ; --          ; eda_design_synthesis              ;
+; EDA_LAUNCH_CMD_LINE_TOOL                                     ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_MAINTAIN_DESIGN_HIERARCHY                                ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_MAP_ILLEGAL_CHARACTERS                                   ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_NATIVELINK_GENERATE_SCRIPT_ONLY                          ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR                                ; timing/custom                                  ; --            ; --          ; eda_timing_analysis               ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; Vhdl                                           ; --            ; --          ; eda_simulation                    ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; Vhdl                                           ; --            ; --          ; eda_timing_analysis               ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; None                                           ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; None                                           ; --            ; --          ; eda_formal_verification           ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; None                                           ; --            ; --          ; eda_board_design_timing           ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; None                                           ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; None                                           ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_OUTPUT_DATA_FORMAT                                       ; None                                           ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_RTL_SIM_MODE                                             ; NOT_USED                                       ; --            ; --          ; eda_timing_analysis               ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_design_synthesis              ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_RUN_TOOL_AUTOMATICALLY                                   ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_SETUP_HOLD_DETECTION_INPUT_REGISTERS_BIDIR_PINS_DISABLED ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_SHOW_LMF_MAPPING_MESSAGES                                ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_SHOW_LMF_MAPPING_MESSAGES                                ; Off                                            ; --            ; --          ; eda_design_synthesis              ;
+; EDA_SIMULATION_TOOL                                          ; Custom VHDL                                    ; <None>        ; --          ; --                                ;
+; EDA_SIMULATION_VCD_OUTPUT_SIGNALS_TO_TCL_FILE                ; All Except Combinational Logic Element Outputs ; --            ; --          ; eda_timing_analysis               ;
+; EDA_SIMULATION_VCD_OUTPUT_TCL_FILE                           ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_TEST_BENCH_ENABLE_STATUS                                 ; NOT_USED                                       ; --            ; --          ; eda_timing_analysis               ;
+; EDA_TIMING_ANALYSIS_TOOL                                     ; Custom VHDL                                    ; <None>        ; --          ; --                                ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_TRUNCATE_LONG_HIERARCHY_PATHS                            ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_USER_COMPILED_SIMULATION_LIBRARY_DIRECTORY               ; <None>                                         ; --            ; --          ; eda_timing_analysis               ;
+; EDA_USE_RISE_FALL_DELAYS                                     ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_VHDL_ARCH_NAME                                           ; structure                                      ; --            ; --          ; eda_timing_analysis               ;
+; EDA_WAIT_FOR_GUI_TOOL_COMPLETION                             ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_WRITER_DONT_WRITE_TOP_ENTITY                             ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_formal_verification           ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_board_design_timing           ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_board_design_symbol           ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_board_design_signal_integrity ;
+; EDA_WRITE_DEVICE_CONTROL_PORTS                               ; Off                                            ; --            ; --          ; eda_board_design_boundary_scan    ;
+; EDA_WRITE_NODES_FOR_POWER_ESTIMATION                         ; Off                                            ; --            ; --          ; eda_simulation                    ;
+; EDA_WRITE_NODES_FOR_POWER_ESTIMATION                         ; Off                                            ; --            ; --          ; eda_timing_analysis               ;
+; FIT_ATTEMPTS_TO_SKIP                                         ; 0                                              ; 0.0           ; --          ; --                                ;
+; MAX_CORE_JUNCTION_TEMP                                       ; 85                                             ; --            ; --          ; --                                ;
+; MIN_CORE_JUNCTION_TEMP                                       ; 0                                              ; --            ; --          ; --                                ;
+; PARTITION_IMPORT_ASSIGNMENTS                                 ; On                                             ; --            ; --          ; Top                               ;
+; PARTITION_IMPORT_EXISTING_ASSIGNMENTS                        ; REPLACE_CONFLICTING                            ; --            ; --          ; Top                               ;
+; PARTITION_IMPORT_EXISTING_LOGICLOCK_REGIONS                  ; REPLACE_CONFLICTING                            ; --            ; --          ; Top                               ;
+; PARTITION_IMPORT_PIN_ASSIGNMENTS                             ; On                                             ; --            ; --          ; Top                               ;
+; PARTITION_IMPORT_PROMOTE_ASSIGNMENTS                         ; On                                             ; --            ; --          ; Top                               ;
+; POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR                        ; 3.3V                                           ; --            ; --          ; --                                ;
+; RESYNTHESIS_OPTIMIZATION_EFFORT                              ; Normal                                         ; --            ; --          ; eda_timing_analysis               ;
+; RESYNTHESIS_OPTIMIZATION_EFFORT                              ; Normal                                         ; --            ; --          ; eda_blast_fpga                    ;
+; RESYNTHESIS_PHYSICAL_SYNTHESIS                               ; Normal                                         ; --            ; --          ; eda_timing_analysis               ;
+; RESYNTHESIS_PHYSICAL_SYNTHESIS                               ; Normal                                         ; --            ; --          ; eda_blast_fpga                    ;
+; RESYNTHESIS_RETIMING                                         ; Full                                           ; --            ; --          ; eda_timing_analysis               ;
+; RESYNTHESIS_RETIMING                                         ; Full                                           ; --            ; --          ; eda_blast_fpga                    ;
+; SEARCH_PATH                                                  ; f:/i2c_altera/                                 ; --            ; --          ; --                                ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS                           ; On                                             ; --            ; --          ; eda_timing_analysis               ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS                           ; Off                                            ; --            ; --          ; eda_blast_fpga                    ;
++--------------------------------------------------------------+------------------------------------------------+---------------+-------------+-----------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 229 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:01     ; 1.0                     ; 195 MB              ; 00:00:01                           ;
+; Assembler               ; 00:00:00     ; 1.0                     ; 178 MB              ; 00:00:00                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 152 MB              ; 00:00:00                           ;
+; EDA Netlist Writer      ; 00:00:01     ; 1.0                     ; 154 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:04     ; --                      ; --                  ; 00:00:02                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; zhangw-PC        ; Windows Vista ; 6.1        ; x86_64         ;
+; Fitter                  ; zhangw-PC        ; Windows Vista ; 6.1        ; x86_64         ;
+; Assembler               ; zhangw-PC        ; Windows Vista ; 6.1        ; x86_64         ;
+; Classic Timing Analyzer ; zhangw-PC        ; Windows Vista ; 6.1        ; x86_64         ;
+; EDA Netlist Writer      ; zhangw-PC        ; Windows Vista ; 6.1        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off C_CLOCK -c C_CLOCK
+quartus_fit --read_settings_files=off --write_settings_files=off C_CLOCK -c C_CLOCK
+quartus_asm --read_settings_files=off --write_settings_files=off C_CLOCK -c C_CLOCK
+quartus_tan --read_settings_files=off --write_settings_files=off C_CLOCK -c C_CLOCK
+quartus_eda --read_settings_files=off --write_settings_files=off C_CLOCK -c C_CLOCK
+
+
+

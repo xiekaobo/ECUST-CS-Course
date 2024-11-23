@@ -1,0 +1,9 @@
+Analysis & Synthesis Status : Successful - Tue Jun 26 11:33:13 2018
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : bcd-decoder
+Top-level Entity Name : bcd-decoder
+Family : MAX II
+Total logic elements : 11
+Total pins : 8
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

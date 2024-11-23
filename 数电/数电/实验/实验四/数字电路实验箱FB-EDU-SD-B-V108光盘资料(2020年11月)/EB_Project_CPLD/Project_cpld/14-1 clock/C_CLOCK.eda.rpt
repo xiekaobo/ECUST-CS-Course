@@ -1,0 +1,122 @@
+EDA Netlist Writer report for C_CLOCK
+Tue Jun 26 11:53:55 2018
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. Timing Analysis Settings
+  6. Timing Analysis Generated Files
+  7. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                             ;
++--------------------------------+---------------------------------------+
+; EDA Netlist Writer Status      ; Successful - Tue Jun 26 11:53:55 2018 ;
+; Revision Name                  ; C_CLOCK                               ;
+; Top-level Entity Name          ; C_CLOCK                               ;
+; Family                         ; MAX II                                ;
+; Simulation Files Creation      ; Successful                            ;
+; Timing Analysis Files Creation ; Successful                            ;
++--------------------------------+---------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                             ;
++---------------------------------------------------------------------------------------------------+-------------+
+; Option                                                                                            ; Setting     ;
++---------------------------------------------------------------------------------------------------+-------------+
+; Tool Name                                                                                         ; Custom VHDL ;
+; Generate netlist for functional simulation only                                                   ; Off         ;
+; Time scale                                                                                        ; 1 ps        ;
+; Truncate long hierarchy paths                                                                     ; Off         ;
+; Map illegal HDL characters                                                                        ; Off         ;
+; Flatten buses into individual nodes                                                               ; Off         ;
+; Maintain hierarchy                                                                                ; Off         ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off         ;
+; Enable glitch filtering                                                                           ; Off         ;
+; Do not write top level VHDL entity                                                                ; Off         ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off         ;
+; Architecture name in VHDL output netlist                                                          ; structure   ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off         ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off         ;
++---------------------------------------------------------------------------------------------------+-------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                                        ;
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                   ;
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; E:/TARGET/Product-SD-customize/release/数电实验箱实验指导书V106刻盘资料/EB_Project_CPLD/Project_cpld/14-1 clock/simulation/custom/C_CLOCK.vho     ;
+; E:/TARGET/Product-SD-customize/release/数电实验箱实验指导书V106刻盘资料/EB_Project_CPLD/Project_cpld/14-1 clock/simulation/custom/C_CLOCK_vhd.sdo ;
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------+
+; Timing Analysis Settings                          ;
++-------------------------------------+-------------+
+; Option                              ; Setting     ;
++-------------------------------------+-------------+
+; Tool Name                           ; Custom VHDL ;
+; Time scale                          ; 1 ps        ;
+; Truncate long hierarchy paths       ; Off         ;
+; Map illegal HDL characters          ; Off         ;
+; Flatten buses into individual nodes ; Off         ;
++-------------------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Timing Analysis Generated Files                                                                                                               ;
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                               ;
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; E:/TARGET/Product-SD-customize/release/数电实验箱实验指导书V106刻盘资料/EB_Project_CPLD/Project_cpld/14-1 clock/timing/custom/C_CLOCK.vho     ;
+; E:/TARGET/Product-SD-customize/release/数电实验箱实验指导书V106刻盘资料/EB_Project_CPLD/Project_cpld/14-1 clock/timing/custom/C_CLOCK_vhd.sdo ;
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II EDA Netlist Writer
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Tue Jun 26 11:53:54 2018
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off C_CLOCK -c C_CLOCK
+Warning: Current incremental compilation flow is not supported for the specified family
+Info: Generated files "C_CLOCK.vho" and "C_CLOCK_vhd.sdo" in directory "E:/TARGET/Product-SD-customize/release/数电实验箱实验指导书V106刻盘资料/EB_Project_CPLD/Project_cpld/14-1 clock/simulation/custom/" for EDA simulation tool
+Info: Generated files "C_CLOCK.vho" and "C_CLOCK_vhd.sdo" in directory "E:/TARGET/Product-SD-customize/release/数电实验箱实验指导书V106刻盘资料/EB_Project_CPLD/Project_cpld/14-1 clock/timing/custom/" for EDA timing analysis tool
+Info: Quartus II EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 158 megabytes
+    Info: Processing ended: Tue Jun 26 11:53:55 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+

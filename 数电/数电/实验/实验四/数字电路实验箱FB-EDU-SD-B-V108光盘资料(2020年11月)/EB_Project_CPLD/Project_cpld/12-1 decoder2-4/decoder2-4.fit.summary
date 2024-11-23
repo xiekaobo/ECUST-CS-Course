@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Dec 09 18:37:44 2020
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : decoder2-4
+Top-level Entity Name : decoder2-4
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 4 / 240 ( 2 % )
+Total pins : 6 / 80 ( 8 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

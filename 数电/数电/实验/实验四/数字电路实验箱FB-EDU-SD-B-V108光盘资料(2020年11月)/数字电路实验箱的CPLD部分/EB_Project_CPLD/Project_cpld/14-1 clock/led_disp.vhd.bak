@@ -1,0 +1,31 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity led_disp is
+port(
+     datain:in std_logic_vector(3 downto 0);
+     dataout:out std_logic_vector(7 downto 0)
+    );
+end led_disp;
+
+architecture rtl of led_disp is
+begin
+ process(datain)
+  begin
+  case datain is
+  when "0000"=>dataout<="11000000";--0
+  when "0001"=>dataout<="11111001";--1
+  when "0010"=>dataout<="10100100";--2
+  when "0011"=>dataout<="10110000";--3
+  when "0100"=>dataout<="10011001";--4
+  when "0101"=>dataout<="10010010";--5
+  when "0110"=>dataout<="10000010";--6
+  when "0111"=>dataout<="11111000";--7
+  when "1000"=>dataout<="10000000";--8
+  when "1001"=>dataout<="10010000";--9
+  when "1010"=>dataout<="10111111";--间隔横杠
+  when "1011"=>dataout<="10111111";--间隔横杠
+  when "1100"=>dataout<="11111111";--超出范围就不显示停住，直到正确为止
+  when others=>null; ---千万注意！！！！！！不能为11111111，否则出错，会有空显示产生
+  end case;
+ end process;
+end rtl;

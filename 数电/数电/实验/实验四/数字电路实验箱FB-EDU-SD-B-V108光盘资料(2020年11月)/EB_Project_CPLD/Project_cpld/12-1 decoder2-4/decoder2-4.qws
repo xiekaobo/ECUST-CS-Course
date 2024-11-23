@@ -1,0 +1,21 @@
+[ProjectWorkspace]
+ptn_Child1=Frames
+[ProjectWorkspace.Frames]
+ptn_Child1=ChildFrames
+[ProjectWorkspace.Frames.ChildFrames]
+ptn_Child1=Document-0
+ptn_Child2=Document-1
+ptn_Child3=Document-2
+ptn_Child4=Document-3
+ptn_Child5=Document-4
+[ProjectWorkspace.Frames.ChildFrames.Document-0]
+ptn_Child1=ViewFrame-0
+[ProjectWorkspace.Frames.ChildFrames.Document-0.ViewFrame-0]
+DocPathName=c:/altera/90sp2/quartus/common/advisors/oa_productivity_table.xml
+DocumentCLSID={5bf23940-a7d4-415b-9daa-f1a0a8ec6577}
+IsChildFrameDetached=False
+IsActiveChildFrame=False
+ptn_Child1=StateMap
+[ProjectWorkspace.Frames.ChildFrames.Document-0.ViewFrame-0.StateMap]
+AFC_CMP_AP_NAME=decoder2-4
+AFC_PROJ_DB_PATH=D:/lesson/2020-2021/数字电路/实验箱/数字电路实验箱FB-EDU-SD-B-V108光盘资料(2020年11月)/EB_Project_CPLD/Project_cpld/12-1 decoder2-4/db/decoder2-4.quartus_db
